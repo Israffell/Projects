@@ -1,0 +1,159 @@
+html
+{
+	background-image: url("media_data/background.jpg");
+	background-size: cover;
+	text-shadow: 1px 1px #000;
+	background-attachment: fixed;
+}
+
+#r6
+{
+	background-image: url("media_data/r6bb.jpg");
+	background-attachment: fixed;
+}
+
+#menubar
+{
+	/*background: linear-gradient(#0043A8,#0043A8);*/
+	background-color: #0043A8;
+	width: 800px;
+	height: 60px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#menubar li
+{
+	display: inline;
+	padding: 10px 24px 10px 24px;
+	background-color: #2F3AD7;
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	border-radius: 20px;
+	border: 1px solid #000;
+}
+
+#menubar a:hover
+{
+	text-decoration: underline;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+h1
+{
+	background: linear-gradient(#43A9FF,#0043A8);
+	font-family: Century; 
+	padding: 5px 0px 5px 0px;
+	color: #000;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+	width: 800px;
+	height: 60px;
+	background-color: #0055FF;
+	margin: 0 auto;
+	line-height: 60px;
+}
+
+h2
+{
+	color: #FF0000;
+	text-decoration: underline;
+}
+#texte
+{
+	background-color: #404040;
+	width: 760px;
+	text-align: justify;
+	color: #FFF;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#texte a:hover
+{
+	text-decoration: underline;
+}
+
+#afficher 
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #0055FF;
+	width: 800px;
+	height: 60px;
+	text-align: center;
+	margin: 0 auto;
+	Font-Weight: Bold;
+	background: linear-gradient(#0043A8,#2C8FE4 );
+}
+
+#divmenu 
+{
+	display:none;
+	background-color: #0055FF;
+	width: 800px;
+	height: 60px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top:-15px;
+	background: linear-gradient(#0043A8,#2C8FE4 );
+}
+
+#divmenu a:hover
+{
+	text-decoration: underline;
+}
+
+#afficher:target #divmenu
+{
+	display:block;
+}
+
+/*
+.masquer 
+{
+	display:none;
+}
+
+#afficher:target .masquer 
+{
+	display:inline;
+}
+
+#afficher:target .afficher 
+{
+	display:none;
+}
+*/
+
+#afficher a:hover
+{
+	text-decoration: underline;
+	Font-Weight: Bold;
+}
+
+#imgAT
+{
+	padding: 2px 5px 0px 5px;
+	float: right;
+	clear: right;
+}
+
+#sommaire
+{
+	margin-left: 20px;
+}
+
+#sommaire a:hover
+{
+	text-decoration: underline;
+}
