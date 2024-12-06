@@ -1,0 +1,25 @@
+Les commandes pour lire 1 token:
+
+flex regexp.l
+gcc lex.yy.c -o lexer -lfl
+./lexer
+
+
+Les commandes pour lire une expression régulière:
+
+bison -d regexp.y
+gcc lex.yy.c regexp.tab.c -o regexp_parser -lfl
+./regexp_parser
+
+
+
+Les define choisi au début:
+
+#define LETTRES_MIN 101
+#define PAR_O 102
+#define PAR_F 103
+#define E_CONST 104
+#define O_CONST 105
+#define PLUS 106
+#define POINT 107
+#define FOIS 108

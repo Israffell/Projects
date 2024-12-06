@@ -1,0 +1,16 @@
+On utilisera le langage de description de machine du site https://turingmachinesimulator.com/. Vous pouvez restreindre ce langage pour vous simplifier le travail, par exemple interdire des espaces ou des sauts de ligne. Dans ce cas, il faut spécifier ces restritions avec un commentaire dans votre code.
+Pour simplifier, on considérera des machines qui effectuent un calcul, avec un seul état final qui dénote la
+fin du calcul. 
+Les états seront notés par des lettres majuscules et A sera l’état initial. L’alphabet d’entrée est
+{0, 1}, l’alphabet de travail {0, 1, _ } et la bande est semi-infinie vers la droite. Dans la configuration initiale, la
+tête de lecture est positionnée à gauche de la bande.
+
+Question 1 : Proposer une structure de données MT qui permet de représenter une machine de Turing ainsi que sa configuration (état courant, état de la bande, position de la tête de lecture). Ecrire une fonction qui initialise une structure MT à partir d’un mot d’entrée et d’un fichier contenant une description d’une machine de Turing.
+
+Question 2 : Ecrire une fonction qui étant donné une machine de Turing, lui fait exécuter un pas de calcul.
+
+Question 3 : Ecrire une fonction qui prend comme argument un mot et une machine de Turing et qui simule le calcul de la machine sur le mot jusqu’à atteindre l’état final. Bravo, vous avez réalisé une machine universelle.
+
+Question 4 : Modifier la fonction précédente pour que, `a chaque pas de simulation, la configuration de la machine s’affiche.
+
+Question 5 : Vous écrirez le code de trois machines de Turing (non triviales) de votre choix dans trois fichiers, et elles devront être simulées quand l’utilisateur tape make test.

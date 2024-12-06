@@ -1,0 +1,28 @@
+Question 1:
+
+//Lister les conditions par des ; (pour savoir cb il y en a)
+//Vérifier que le mot de base n'a que 0 ou 1
+//Reconnaitre le mouvement de la tête de lecture:
+	Si la MT lit un <, faire mt.head-- (si mt.head>0) (cf q6)
+	Si la MT lit un >, faire mt.head++  (créer un tableau temp de taille N+1 et recopier l'ancien tableau dans temp, supprimer l'ancien tableau, le recréer et mettre les valeurs de temp dans ce tableau)
+	Si la MT lit un -, ne rien faire
+
+//Si il y a volonté d'ajouté un caractère au "début"/"milieu" alors crée un tableau temp de la taille N+1
+
+
+
+Question 6: Augmenter la taille du tableau contenant l'input de 1 et décaler chaque élément de ce tableau à droite.
+
+Question 7: Transformer la MT en MT binaire (?)
+
+
+
+
+Idées sur le tas (en tsoum tsoum):
+
+
+Choses à faire:
+Si détecte _ et n'a aucune condition alors byebye REJECT
+mettre ce qui à été fait en plusieurs fonctions
+recheck la q1 avec d'autres exemples
+
