@@ -21,7 +21,7 @@ This repository gathers a collection of projects that I have developed over time
 Each project is organized in its own directory, sorted by language. Here is an overview of the current structure:
 
 Projects/
--> C
+/n-> C
 -> HTML - CSS
 -> JAVA
 -> PYTHON
