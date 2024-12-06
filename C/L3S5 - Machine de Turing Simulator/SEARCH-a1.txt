@@ -1,0 +1,8 @@
+init: A
+accept: F
+
+A,0
+A,0,>
+
+A,1
+F,1,-
