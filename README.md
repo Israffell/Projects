@@ -5,12 +5,12 @@ Bienvenue dans Projects. Ce dépôt rassemble une collection de projets que j'ai
 Chaque projet est organisé dans son propre répertoire, trier par langage. Voici un aperçu de la structure actuelle :
 
 Projects/
--> C
--> HTML - CSS
--> JAVA
--> PYTHON
--> R
--> SL-SQL
+- C
+- HTML - CSS
+- JAVA
+- PYTHON
+- R
+- PL-SQL
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -21,9 +21,9 @@ This repository gathers a collection of projects that I have developed over time
 Each project is organized in its own directory, sorted by language. Here is an overview of the current structure:
 
 Projects/
-/n-> C
--> HTML - CSS
--> JAVA
--> PYTHON
--> R
--> SL-SQL
+- C
+- HTML - CSS
+- JAVA
+- PYTHON
+- R
+- PL-SQL
